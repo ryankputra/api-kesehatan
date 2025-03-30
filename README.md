@@ -63,5 +63,27 @@ php artisan serve
     GET /api/prescriptions/{id}: Menampilkan resep obat berdasarkan ID.<br>
     PUT/PATCH /api/prescriptions/{id}: Memperbarui data resep obat.<br>
     DELETE /api/prescriptions/{id}: Menghapus resep obat.<br>
+    <hr>
+    <b>Format Respon API</b><br<br>
+     1.Sukses<br>
+     ```
+            {
+                "success": true,
+                "message": "Pesan sukses",
+                "data": {
+                // Data yang diminta
+              }
+            }
+    ```
+    2.Gagal<br>
+    ```
+            {
+              "success": false,
+              "message": "Pesan error",
+              "error": "Deskripsi error"
+            }
+    ```
 
-
+    
+        
+        
