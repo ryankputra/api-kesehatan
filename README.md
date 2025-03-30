@@ -70,7 +70,7 @@ php artisan serve
     PUT/PATCH /api/prescriptions/{id}: Memperbarui data resep obat.
     DELETE /api/prescriptions/{id}: Menghapus resep obat.
     ```
-    <hr>
+    
 <b>Format Respon API</b><br><br><hr>
      1.Sukses<br>
      ```
