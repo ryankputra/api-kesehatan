@@ -51,17 +51,17 @@ php artisan serve
     DELETE /api/appointments/{id}: Menghapus janji temu.
     <hr>
     <b>4.medical_records</b>
-    GET /api/medical_records: Menampilkan semua rekam medis.
-    POST /api/medical_records: Menambahkan rekam medis baru.
-    GET /api/medical_records/{id}: Menampilkan rekam medis berdasarkan ID.
-    PUT/PATCH /api/medical_records/{id}: Memperbarui data rekam medis.
-    DELETE /api/medical_records/{id}: Menghapus rekam medis.
+    GET /api/medical_records: Menampilkan semua rekam medis.<br>
+    POST /api/medical_records: Menambahkan rekam medis baru.<br>
+    GET /api/medical_records/{id}: Menampilkan rekam medis berdasarkan ID.<br>
+    PUT/PATCH /api/medical_records/{id}: Memperbarui data rekam medis.<br>
+    DELETE /api/medical_records/{id}: Menghapus rekam medis.<br>
     <hr>
     <b>5.prescriptions</b>
-    GET /api/prescriptions: Menampilkan semua resep obat.
-    POST /api/prescriptions: Menambahkan resep obat baru.
-    GET /api/prescriptions/{id}: Menampilkan resep obat berdasarkan ID.
-    PUT/PATCH /api/prescriptions/{id}: Memperbarui data resep obat.
-    DELETE /api/prescriptions/{id}: Menghapus resep obat.
+    GET /api/prescriptions: Menampilkan semua resep obat.<br>
+    POST /api/prescriptions: Menambahkan resep obat baru.<br>
+    GET /api/prescriptions/{id}: Menampilkan resep obat berdasarkan ID.<br>
+    PUT/PATCH /api/prescriptions/{id}: Memperbarui data resep obat.<br>
+    DELETE /api/prescriptions/{id}: Menghapus resep obat.<br>
 
 
