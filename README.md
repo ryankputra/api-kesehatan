@@ -71,7 +71,7 @@ php artisan serve
     DELETE /api/prescriptions/{id}: Menghapus resep obat.
     ```
     <hr>
-<b>Format Respon API</b><br<br><hr>
+<b>Format Respon API</b><br><br><hr>
      1.Sukses<br>
      ```
             {
