@@ -67,13 +67,13 @@ php artisan serve
     <b>Format Respon API</b><br<br>
      1.Sukses<br>
      ```
-            {
-                "success": true,
-                "message": "Pesan sukses",
-                "data": {
-                // Data yang diminta
-              }
-            }
+            {<br>
+                "success": true,<br>
+                "message": "Pesan sukses",<br>
+                "data": {<br>
+                // Data yang diminta<br>
+              }<br>
+            }<br>
     ```
     2.Gagal<br>
     ```
