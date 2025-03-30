@@ -1,7 +1,7 @@
 <b>Pendahuluan</b><br><hr>
 API ini dirancang untuk digunakan oleh admin sebuah klinik kesehatan dalam mengelola data pasien, dokter, janji temu, rekam medis, dan resep obat. API ini dibangun menggunakan Laravel.
 
-LANGKAH LANGKAH INTALASI LARAVEL API
+<b>LANGKAH LANGKAH INTALASI LARAVEL API</b><br><hr>
 1.Clone Repo
 ```
 git clone https://github.com/ryankputra/api-kesehatan.git
