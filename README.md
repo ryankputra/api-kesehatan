@@ -57,18 +57,20 @@ php artisan serve
     PUT/PATCH /api/medical_records/{id}: Memperbarui data rekam medis.<br>
     DELETE /api/medical_records/{id}: Menghapus rekam medis.<br>
 5. Prescriptions<br>
+    ```
     GET /api/prescriptions: Menampilkan semua resep obat.<br>
     POST /api/prescriptions: Menambahkan resep obat baru.<br>
     GET /api/prescriptions/{id}: Menampilkan resep obat berdasarkan ID.<br>
     PUT/PATCH /api/prescriptions/{id}: Memperbarui data resep obat.<br>
     DELETE /api/prescriptions/{id}: Menghapus resep obat.<br>
     <hr>
+    ```
 <b>Format Respon API</b><br<br>
      1.Sukses<br>
      ```
             {
                 "success": true,
-                "message": "Pesan sukses",<br>
+                "message": "Pesan sukses",
                 "data": {
                 // Data yang diminta
               }
