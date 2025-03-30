@@ -1,8 +1,7 @@
-<b>Pendahuluan</b><br>
+<b>Pendahuluan</b><br><hr>
 API ini dirancang untuk digunakan oleh admin sebuah klinik kesehatan dalam mengelola data pasien, dokter, janji temu, rekam medis, dan resep obat. API ini dibangun menggunakan Laravel.
-<hr>
 
-<b>Langkah-langkah Instalasi Laravel</b><br>
+<b>Langkah-langkah Instalasi Laravel</b><br><hr>
 1. Clone Repo
 ```
 git clone https://github.com/ryankputra/api-kesehatan.git
@@ -29,9 +28,8 @@ php artisan migrate
 ```
 php artisan serve
 ```
-<hr>
 
-<b>Endpoint API menggunakan Postman</b>
+<b>Endpoint API menggunakan Postman</b><hr>
 1. Patients<br>
     ```
     GET /api/patients: Menampilkan semua pasien.
@@ -73,7 +71,7 @@ php artisan serve
     DELETE /api/prescriptions/{id}: Menghapus resep obat.
     ```
     <hr>
-<b>Format Respon API</b><br<br>
+<b>Format Respon API</b><br<br><hr>
      1.Sukses<br>
      ```
             {
