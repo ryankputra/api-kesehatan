@@ -37,18 +37,18 @@ php artisan serve
     DELETE /api/patients/{id}: Menghapus data pasien.
     <hr>
 <b>2.Doctors</b><br><br>
-    GET /api/doctors: Menampilkan semua dokter.
-    POST /api/doctors: Menambahkan dokter baru.
-    GET /api/doctors/{id}: Menampilkan data dokter berdasarkan ID.
-    PUT/PATCH /api/doctors/{id}: Memperbarui data dokter.
-    DELETE /api/doctors/{id}: Menghapus data dokter.
+    GET /api/doctors: Menampilkan semua dokter.<br>
+    POST /api/doctors: Menambahkan dokter baru.<br>
+    GET /api/doctors/{id}: Menampilkan data dokter berdasarkan ID.<br>
+    PUT/PATCH /api/doctors/{id}: Memperbarui data dokter.<br>
+    DELETE /api/doctors/{id}: Menghapus data dokter.<br>
     <hr>
   <b>3.appointments</b><br><br>
-    GET /api/appointments: Menampilkan semua janji temu.
-    POST /api/appointments: Menambahkan janji temu baru.
-    GET /api/appointments/{id}: Menampilkan data janji temu berdasarkan ID.
-    PUT/PATCH /api/appointments/{id}: Memperbarui data janji temu.
-    DELETE /api/appointments/{id}: Menghapus janji temu.
+    GET /api/appointments: Menampilkan semua janji temu.<br>
+    POST /api/appointments: Menambahkan janji temu baru.<br>
+    GET /api/appointments/{id}: Menampilkan data janji temu berdasarkan ID.<br>
+    PUT/PATCH /api/appointments/{id}: Memperbarui data janji temu.<br>
+    DELETE /api/appointments/{id}: Menghapus janji temu.<br>
     <hr>
     <b>4.medical_records</b><br><br>
     GET /api/medical_records: Menampilkan semua rekam medis.<br>
