@@ -33,30 +33,38 @@ php artisan serve
 
 <b>Endpoint API menggunakan Postman</b>
 1. Patients<br>
+    ```
     GET /api/patients: Menampilkan semua pasien.
     POST /api/patients: Menambahkan pasien baru.
     GET /api/patients/{id}: Menampilkan data pasien berdasarkan ID.
     PUT/PATCH /api/patients/{id}: Memperbarui data pasien.
     DELETE /api/patients/{id}: Menghapus data pasien.
+    ```
 2. Doctors<br>
-    GET /api/doctors: Menampilkan semua dokter.<br>
-    POST /api/doctors: Menambahkan dokter baru.<br>
-    GET /api/doctors/{id}: Menampilkan data dokter berdasarkan ID.<br>
-    PUT/PATCH /api/doctors/{id}: Memperbarui data dokter.<br>
-    DELETE /api/doctors/{id}: Menghapus data dokter.<br>
+    ```
+    GET /api/doctors: Menampilkan semua dokter.
+    POST /api/doctors: Menambahkan dokter baru.
+    GET /api/doctors/{id}: Menampilkan data dokter berdasarkan ID.
+    PUT/PATCH /api/doctors/{id}: Memperbarui data dokter.
+    DELETE /api/doctors/{id}: Menghapus data dokter.
+    ```
 3. Appointments<br>
-    GET /api/appointments: Menampilkan semua janji temu.<br>
-    POST /api/appointments: Menambahkan janji temu baru.<br>
-    GET /api/appointments/{id}: Menampilkan data janji temu berdasarkan ID.<br>
-    PUT/PATCH /api/appointments/{id}: Memperbarui data janji temu.<br>
-    DELETE /api/appointments/{id}: Menghapus janji temu.<br>
-4. Medical Records<br>
-    GET /api/medical_records: Menampilkan semua rekam medis.<br>
-    POST /api/medical_records: Menambahkan rekam medis baru.<br>
-    GET /api/medical_records/{id}: Menampilkan rekam medis berdasarkan ID.<br>
-    PUT/PATCH /api/medical_records/{id}: Memperbarui data rekam medis.<br>
-    DELETE /api/medical_records/{id}: Menghapus rekam medis.<br>
-5. Prescriptions<br>
+    ```
+    GET /api/appointments: Menampilkan semua janji temu.
+    POST /api/appointments: Menambahkan janji temu baru.
+    GET /api/appointments/{id}: Menampilkan data janji temu berdasarkan ID.
+    PUT/PATCH /api/appointments/{id}: Memperbarui data janji temu.
+    DELETE /api/appointments/{id}: Menghapus janji temu.
+   ```
+5. Medical Records<br>
+    ```
+    GET /api/medical_records: Menampilkan semua rekam medis.
+    POST /api/medical_records: Menambahkan rekam medis baru.
+    GET /api/medical_records/{id}: Menampilkan rekam medis berdasarkan ID.
+    PUT/PATCH /api/medical_records/{id}: Memperbarui data rekam medis.
+    DELETE /api/medical_records/{id}: Menghapus rekam medis.
+   ```
+6. Prescriptions<br>
     ```
     GET /api/prescriptions: Menampilkan semua resep obat.
     POST /api/prescriptions: Menambahkan resep obat baru.
@@ -76,6 +84,7 @@ php artisan serve
               }
             }
     ```
+    <br>
     2.Gagal<br>
     ```
             {
