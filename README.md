@@ -1,4 +1,4 @@
-<b>Pendahuluan</b>
+<b>Pendahuluan</b><br>
 API ini dirancang untuk digunakan oleh admin sebuah klinik kesehatan dalam mengelola data pasien, dokter, janji temu, rekam medis, dan resep obat. API ini dibangun menggunakan Laravel.
 
 LANGKAH LANGKAH INTALASI LARAVEL API
